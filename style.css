@@ -1,0 +1,74 @@
+html,
+body {
+	background-color: #232020;
+	min-width: 500px;
+
+}
+
+header {
+	color: #ff7315;
+	text-align: center;
+	font-size: 3em;
+}
+
+#instructions {
+	color: white;
+}
+
+#formulaire {
+    margin-top: 100px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.instruction {
+	padding: 15px;
+	margin: 10px 0;
+}
+
+.plus {
+	background-color: #f67280;
+}
+
+.moins {
+	background-color: #ffa372;
+}
+
+.fini {
+	background-color: #0c9463;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    height: 50px;
+    width: 100%;
+}
+
+input {
+    width: 80%;
+    line-height: 50px;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1.25em;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.text-danger {
+    margin-top: 25px;
+    font-size: 1.25em;
+    color: red;
+}
