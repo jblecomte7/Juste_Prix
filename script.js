@@ -30,7 +30,13 @@ const verifier = (nombre) => {
   } else {
     // Félicitations
     instruction.textContent =
-      "#" + coups + " (" + nombre + ") Félicitations, vous avez trouvé !";
+      "#" +
+      coups +
+      " (" +
+      nombre +
+      ") Félicitations, vous avez trouvé en " +
+      coups +
+      " coups !";
     instruction.className = "instruction fini";
     input.disabled = true;
   }
