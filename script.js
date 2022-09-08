@@ -61,7 +61,9 @@ formulaire.addEventListener("submit", (e) => {
   e.preventDefault();
   if (isNaN(input.value) || input.value == "") {
     input.style.border = "1px solid red";
+    error.style.display = "block";
   } else {
+    error.style.display = "none";
     coups++;
     input.style.border = "1px solid silver";
     nbChoisi = input.value;
